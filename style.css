@@ -1,0 +1,88 @@
+h1 {
+  color: #DC143C;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  color: #CD5C5C;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+h3 {
+  color: #20B2AA;
+  font-family: 'Lora', serif;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #F5FFFA;
+  font-family: 'Lora', serif;
+}
+
+
+.profilepic {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #F0F8FF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+.btn-red:hover {
+    background-color: #4169E1;
+    color: white;
+}
+
+.btn-red {
+    background-color: #4682B4;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #191970;
+}
+
+#movies {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#movies img {
+    width: 180px;
+}
